@@ -1,1 +1,3 @@
-[ -d /home/scrapbook/tutorial/.git ] && echo "done"
+# Hello, y'all
+
+Can you try entering some text?
