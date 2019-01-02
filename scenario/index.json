@@ -1,19 +1,12 @@
 {
-  "title": "scenario",
-  "description": "test",
+  "title": "Webdog's scenario",
+  "description": "Testing out some awesome new features",
   "details": {
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
       }
     ],
     "intro": {
@@ -24,9 +17,10 @@
     }
   },
   "environment": {
+    "hideintro": true,
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "git"
   }
 }
