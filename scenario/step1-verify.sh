@@ -1,1 +1,1 @@
-echo "Done"
+[ -d /root ] && echo "done"
