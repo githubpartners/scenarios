@@ -10,6 +10,7 @@
       }
     ],
     "intro": {
+      "code": "foreground.sh",
       "text": "intro.md"
     },
     "finish": {
